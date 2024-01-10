@@ -1,0 +1,11 @@
+Crear Fixture
+Abrir Consola del entorno virtual (Shell) -> python manage.py shell(Windows) -> shell_plus(Linux)
+Crear una Lista Con La informacion Requerida
+Ejemplo 
+from dominios.models import TipoPredio
+lista = ['Rural','Urbano']
+For i in lista:
+	TipoPredio.objects.create(nombre=i)
+salir del shell y volver al entorno virtual, ejecutar:
+python manage.py dumpdata dominios.TipoPredio --indent 4 -- format json > fixtures/00_tipo_predio.json
+

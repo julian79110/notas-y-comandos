@@ -1,0 +1,39 @@
+SIG = nacen en los mapas solo se podian consultar la info impresa, se podian tomar un area que nutre la info asociada.
+grass, GDAL, QYIS
+
+Origen Bogota, este central, este este. Transversa de mercato y cilindro acostado epgs 93 77 ctm 12, magna nacional 
+coor 1975 -> magna sirgas -> MAGNA Nacional 
+
+generar planchas cartograficas
+
+proyectadas y geograficas -> tierra, geoide, elipsoide
+
+wgs 84, ers 80
+
+longitud - latitud
+
+coordenadas proyectadas -> asbtraccion que es equivalente a la geografica para darselo a la pequeñacoordenadas locales todo 
+esto es referido a la escala
+
+union de un dibujo con la db -> GeoJSON, ESRI, GeoPackage, QGIS
+
+srid
+
+postGIS
+
+st -> librerias para consultas dentro de la db geometry
+
+geoserver interfaz web libreria open layers v6 -> despliegue de info rasser o vecto
+
+mediante imagen, se envia en imagenes mas pequeñas para el renderizado en el wms en los grupos de capas que se vayan a representar
+
+informacion rasser/raster
+
+le tomas una foto a la imagen que hay y esa se va al cliente
+
+WMS
+
+WFS web feature service
+
+WPS
+
